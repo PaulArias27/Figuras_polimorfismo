@@ -5,6 +5,9 @@ public class Figura {
 	private String color;
 	
 	//constructores
+	
+	
+	
 	public Figura(String nombre,String color) {
 		this.nombre = nombre;
 		this.color = color;
@@ -15,6 +18,12 @@ public class Figura {
 	public String toString() {
 		return "Figura [nombre=" + nombre + ", color=" + color + "]";
 	}
+	
+	//metodos
+	public int calcularPerimetro() {
+		return 0;
+	}
+	
 	
 	
 	//getters and setters
