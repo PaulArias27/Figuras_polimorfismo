@@ -12,12 +12,12 @@ public class TestGraficar {
 		// TODO Auto-generated method stub
 		
 		Graficador g = new Graficador();
-		Figura f = new Figura("Figuras", "verde");
+		
 		Cuadrado c = new Cuadrado("Cuadrado","rojo",5);
 		Rectangulo r = new Rectangulo("Rectangulo", "Amarillo",5 ,10);
 		TrianguloRectangulo tr = new TrianguloRectangulo("TrianguloRectangulo", "cafe",5,6);
 		
-		g.graficar(f);
+		
 		g.graficar(c);
 		g.graficar(r);
 		g.graficar(tr);
