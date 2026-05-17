@@ -1,0 +1,34 @@
+package com.krakedev.figuras;
+
+public class Figura {
+	private String nombre;
+	private String color;
+	
+	//metodo toString
+	@Override
+	public String toString() {
+		return "Figura [nombre=" + nombre + ", color=" + color + "]";
+	}
+	
+	
+	//getters and setters
+
+	public String getNombre() {
+		return nombre;
+	}
+
+	public void setNombre(String nombre) {
+		this.nombre = nombre;
+	}
+
+	public String getColor() {
+		return color;
+	}
+
+	public void setColor(String color) {
+		this.color = color;
+	}
+	
+	
+	
+}
