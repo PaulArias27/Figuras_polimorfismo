@@ -4,6 +4,12 @@ public class Figura {
 	private String nombre;
 	private String color;
 	
+	//constructores
+	public Figura(String nombre,String color) {
+		this.nombre = nombre;
+		this.color = color;
+	}
+	
 	//metodo toString
 	@Override
 	public String toString() {
